@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>todo App</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <button class="cancelbtn" type="button" onclick="location.href='index.html'">キャンセル</button>
+
+    <h3>現在の項目名と色</h3>
+      <div class="initial-contents">
+        <button class="initial-circle" type="button" onclick="location.href='config.html'"><i class="fas fa-cog"></i></a>
+        <button class="initial-contentsbtn" type="button" onclick="location.href='contents.html'">
+          <p id="initial-name">仕事</p>
+          <p id="initial-count">10</p>
+          <i class="fas fa-angle-right"></i>
+        </button>
+      </div>
+
+    <h3>新しい項目名と色</h3>
+    <div class="newcreate-form">
+      <input type="text" class="newcreate-textform">
+
+      <input type ="button" class="newcreate-redcircle">
+      <input type ="button" class="newcreate-bluecircle">
+      <input type ="button" class="newcreate-greencircle">
+      <input type ="button" class="newcreate-yellowcircle">
+      <input type ="button" class="newcreate-orangecircle">
+      <input type ="button" class="newcreate-purplecircle">
+
+      <button class="newcreate-btn">変更</button>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

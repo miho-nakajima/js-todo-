@@ -1,0 +1,132 @@
+/* index.html */
+body{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  margin: 0;
+  font-size: 18px;
+  width:100%;
+}
+
+h1{
+  width: 30%;
+  text-align: right;
+}
+
+.initial{
+  margin:0 auto;
+  width: 50%;
+  border:solid 2px #afafaf;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.initial-contents{
+  display: flex;
+}
+
+.initial-contentsbtn{
+  display: flex;/*横並び*/
+  align-items: center; /*テキスト上下中央寄せ*/
+  margin: 0;
+  width: 80%;
+  font-size: 18px;
+}
+
+.initial-circle{
+  text-align: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: red;
+  margin: 10px;
+  font-size: 18px;
+}
+
+#initial-name{
+  margin: 10px;
+}
+
+#initial-count{
+  margin: 10px;
+}
+
+.initial-btn,.newcreate-btn{
+  padding: 10px;
+  font-size: 18px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 50px;
+}
+
+
+/* item.html */
+.cancelbtn{
+  padding: 10px;
+  font-size: 18px;
+  align-items: center;
+  margin: 50px;
+}
+
+.newcreate-form{
+  text-align: center;
+}
+
+.newcreate-textform{
+  display: flex;
+  margin: 0 auto;
+  padding: 10px;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.newcreate-redcircle{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.newcreate-bluecircle{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: blue;
+}
+
+.newcreate-greencircle{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.newcreate-yellowcircle{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: yellow;
+}
+
+.newcreate-orangecircle{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: orange;
+}
+
+.newcreate-purplecircle{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: purple;
+}
+
+/* contents.html */
+.contents{
+  text-align: center;
+}
+
+/* config.html */
+.config{
+  text-align: center;
+}
