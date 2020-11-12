@@ -1,2 +1,2 @@
-# js-todo-
+# js-todoapp
 JavaScriptを使用してtodoアプリを作成しました。
