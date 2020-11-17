@@ -1,0 +1,134 @@
+/* 共通*/
+body{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  margin: 0;
+  font-size: 18px;
+  width:100%;
+}
+
+h1{
+  width: 30%;
+  text-align: right;
+}
+
+.cancelbtn{
+  padding: 10px;
+  font-size: 18px;
+  align-items: center;
+  margin: 50px;
+}
+
+
+/*html/index.html*/
+.main{
+  margin:0 auto;
+  width: 50%;
+  border:solid 2px #afafaf;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.main-contents{
+  display: flex;
+}
+
+.main-contentsbtn{
+  display: flex;/*横並び*/
+  align-items: center; /*テキスト上下中央寄せ*/
+  margin: 0;
+  width: 80%;
+  font-size: 18px;
+}
+
+.main-circle{
+  text-align: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: red;
+  margin: 10px;
+  font-size: 18px;
+}
+
+#main-name{
+  margin: 10px;
+}
+
+#main-count{
+  margin: 10px;
+}
+
+.main-btn,.create-btn{
+  padding: 10px;
+  font-size: 18px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 50px;
+}
+
+
+/* create/index.html */
+.create-form{
+  text-align: center;
+}
+
+.create-textform{
+  display: flex;
+  margin: 0 auto;
+  padding: 10px;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.create-redcircle{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.create-bluecircle{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: blue;
+}
+
+.create-greencircle{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.create-yellowcircle{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: yellow;
+}
+
+.create-orangecircle{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: orange;
+}
+
+.create-purplecircle{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: purple;
+}
+
+/* contents/index.html */
+.contents{
+  text-align: center;
+}
+
+/*category/index.html */
+.category{
+  text-align: center;
+}
