@@ -3,7 +3,7 @@
 const btnCreate = document.getElementById("btnCreate");
 const inputCreate = document.getElementById("js-create-input");
 
-inputCreate.addEventListener("change", (event) => {
+inputCreate.addEventListener("keyup", (event) => {
   console.log("value: ", event.target.value);
   const value = event.target.value;
 
